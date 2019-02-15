@@ -1,0 +1,34 @@
+﻿QPushButton{
+    background-color:#87CEEB;
+    height:20px;
+    min-width:80px;
+    border-color:gray;
+    padding:4px;
+}
+
+QPushButton:pressed{
+    background-color:#00BFFF;
+}
+
+/*QWidget#viewitem{
+    border:2px solid blue;
+}*/
+
+QMdiArea::vertical,
+QMdiArea::horizontal
+{
+    background:#1E90FF;
+    width:35px;
+}
+
+/*QScrollBar::handle:vertical
+{
+    background: #1E90FF;
+}*/
+
+QComboBox{
+    background-color:#87CEEB;
+    border: 1px solid #87CEEB;
+    border-radius: 3px;
+    height:20px;
+}
